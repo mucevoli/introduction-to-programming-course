@@ -1,16 +1,21 @@
 # Lab 06 notes
 
-Name:
+Name: Mikołaj Bartnikowski
 
 ## Class
 
-Command used to execute the script:
+Command used to execute the script: python scene_reporty.py
 
-Two report rows I checked against the rules:
+Two report rows I checked against the rules: A and B
 
-Observed counts at a limit of 20:
+Observed counts at a limit of 20: 5,1,2
 
 My explanation of one loop, return, or repeated record decision:
+i like
+counts[result["status"]] += 1 
+in the loop, because its a one liner which does a lot: for every results it uses dictonary form to look up its status, find/compares its status to the statuses which we should count and updates the coutner
+
+Both records labeled A appeared, because we did not filter them out. It just goes through every reecord in the list.
 
 Agreed stopping point, if setup or time prevented completion:
 
